@@ -1,0 +1,25 @@
+{
+    "name": "the-coding-owl/core",
+    "description": "This is the core module of the coding-owl cms. It provides every basic functionality for a small CMS.",
+    "type": "project",
+    "require": {
+        "symfony/orm-pack": "^1.0.6",
+        "symfony/framework-bundle": "^4.3.1"
+    },
+    "require-dev": {
+        "codeception/codeception": "^3.0.1",
+        "friendsofphp/php-cs-fixer": "^2.15"
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Kevin Ditscheid",
+            "email": "kevin@the-coding-owl.de"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "TheCodingOwl\\Core": "src/"
+        }
+    }
+}
